@@ -1,0 +1,10 @@
+D:\App\vietlott\vietlott\ATMClient\bin\Release\ATMClient.exe.config
+D:\App\vietlott\vietlott\ATMClient\bin\Release\ATMClient.exe
+D:\App\vietlott\vietlott\ATMClient\bin\Release\ATMClient.pdb
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.csproj.AssemblyReference.cache
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.ProjectInstaller.resources
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.Service1.resources
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.csproj.GenerateResource.cache
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.csproj.CoreCompileInputs.cache
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.exe
+D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.pdb

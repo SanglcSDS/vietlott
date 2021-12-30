@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vietlott", "vietlott\vietlo
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "vietlotts", "vietlotts\vietlotts.vdproj", "{B0281A21-4B6D-42EF-BFCB-19F1990FA666}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMClient", "ATMClient\ATMClient.csproj", "{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ATMClients", "ATMClients\ATMClients.vdproj", "{03AF780A-3A53-4873-AF3A-1B4A46CDF909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,24 @@ Global
 		{B0281A21-4B6D-42EF-BFCB-19F1990FA666}.Release|x64.Build.0 = Release
 		{B0281A21-4B6D-42EF-BFCB-19F1990FA666}.Release|x86.ActiveCfg = Release
 		{B0281A21-4B6D-42EF-BFCB-19F1990FA666}.Release|x86.Build.0 = Release
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Debug|x64.Build.0 = Debug|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Debug|x86.Build.0 = Debug|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Release|x64.ActiveCfg = Release|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Release|x64.Build.0 = Release|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Release|x86.ActiveCfg = Release|Any CPU
+		{FA3C0FBB-BCC8-4DD8-BB89-C996E01A6A67}.Release|x86.Build.0 = Release|Any CPU
+		{03AF780A-3A53-4873-AF3A-1B4A46CDF909}.Debug|Any CPU.ActiveCfg = Debug
+		{03AF780A-3A53-4873-AF3A-1B4A46CDF909}.Debug|x64.ActiveCfg = Debug
+		{03AF780A-3A53-4873-AF3A-1B4A46CDF909}.Debug|x86.ActiveCfg = Debug
+		{03AF780A-3A53-4873-AF3A-1B4A46CDF909}.Release|Any CPU.ActiveCfg = Release
+		{03AF780A-3A53-4873-AF3A-1B4A46CDF909}.Release|x64.ActiveCfg = Release
+		{03AF780A-3A53-4873-AF3A-1B4A46CDF909}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

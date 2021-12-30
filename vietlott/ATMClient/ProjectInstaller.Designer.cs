@@ -1,5 +1,5 @@
 ﻿
-namespace vietlott
+namespace ATMClient
 {
     partial class ProjectInstaller
     {
@@ -31,32 +31,24 @@ namespace vietlott
         {
             this.serviceProcessInstaller1 = new System.ServiceProcess.ServiceProcessInstaller();
             this.serviceInstaller1 = new System.ServiceProcess.ServiceInstaller();
-            this.serviceInstaller2 = new System.ServiceProcess.ServiceInstaller();
             // 
             // serviceProcessInstaller1
             // 
             this.serviceProcessInstaller1.Account = System.ServiceProcess.ServiceAccount.LocalSystem;
             this.serviceProcessInstaller1.Password = null;
             this.serviceProcessInstaller1.Username = null;
-            this.serviceProcessInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceProcessInstaller1_AfterInstall);
             // 
             // serviceInstaller1
             // 
-            this.serviceInstaller1.ServiceName = "vietlott";
+            this.serviceInstaller1.ServiceName = "atmClient";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             this.serviceInstaller1.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller1_AfterInstall);
-            // 
-            // serviceInstaller2
-            // 
-            this.serviceInstaller2.ServiceName = "Service1";
-            this.serviceInstaller2.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.serviceInstaller2_AfterInstall);
             // 
             // ProjectInstaller
             // 
             this.Installers.AddRange(new System.Configuration.Install.Installer[] {
             this.serviceProcessInstaller1,
-            this.serviceInstaller1,
-            this.serviceInstaller2});
+            this.serviceInstaller1});
 
         }
 
@@ -64,6 +56,5 @@ namespace vietlott
 
         private System.ServiceProcess.ServiceProcessInstaller serviceProcessInstaller1;
         private System.ServiceProcess.ServiceInstaller serviceInstaller1;
-        private System.ServiceProcess.ServiceInstaller serviceInstaller2;
     }
 }

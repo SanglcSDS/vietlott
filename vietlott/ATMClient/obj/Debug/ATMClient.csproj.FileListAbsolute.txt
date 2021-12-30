@@ -1,0 +1,7 @@
+D:\App\vietlott\vietlott\ATMClient\bin\Debug\ATMClient.exe.config
+D:\App\vietlott\vietlott\ATMClient\bin\Debug\ATMClient.exe
+D:\App\vietlott\vietlott\ATMClient\bin\Debug\ATMClient.pdb
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.csproj.AssemblyReference.cache
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.csproj.CoreCompileInputs.cache
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.exe
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.pdb

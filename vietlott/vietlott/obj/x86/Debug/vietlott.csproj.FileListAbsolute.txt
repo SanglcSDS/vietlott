@@ -7,3 +7,12 @@ C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Debug\vietlott.csproj.Gene
 C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Debug\vietlott.csproj.CoreCompileInputs.cache
 C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Debug\vietlott.exe
 C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Debug\vietlott.pdb
+D:\App\vietlott\vietlott\vietlott\bin\x86\Debug\vietlott.exe.config
+D:\App\vietlott\vietlott\vietlott\bin\x86\Debug\vietlott.exe
+D:\App\vietlott\vietlott\vietlott\bin\x86\Debug\vietlott.pdb
+D:\App\vietlott\vietlott\vietlott\obj\x86\Debug\vietlott.csproj.AssemblyReference.cache
+D:\App\vietlott\vietlott\vietlott\obj\x86\Debug\vietlott.ProjectInstaller.resources
+D:\App\vietlott\vietlott\vietlott\obj\x86\Debug\vietlott.csproj.GenerateResource.cache
+D:\App\vietlott\vietlott\vietlott\obj\x86\Debug\vietlott.csproj.CoreCompileInputs.cache
+D:\App\vietlott\vietlott\vietlott\obj\x86\Debug\vietlott.exe
+D:\App\vietlott\vietlott\vietlott\obj\x86\Debug\vietlott.pdb

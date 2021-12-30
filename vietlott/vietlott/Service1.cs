@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,14 +9,14 @@ using System.Net;
 using System.Net.Sockets;
 using System.ServiceProcess;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace vietlott
 {
     public partial class Service1 : ServiceBase
     {
-        const int PORT_NO = 5000;
-        const string SERVER_IP = "127.0.0.1";
+        Thread listenerThread;
         public Service1()
         {
             InitializeComponent();
@@ -28,47 +29,72 @@ namespace vietlott
 
         protected override void OnStart(string[] args)
         {
+            listenerThread = new Thread(new ThreadStart(ListenerMethod));
 
-            //---listen at the specified IP and port no.---
-            IPAddress localAdd = IPAddress.Parse(SERVER_IP);
-            TcpListener listener = new TcpListener(localAdd, PORT_NO);
-            Console.WriteLine("Listening...");
-            listener.Start();
+            listenerThread.Start();
 
-            //---incoming client connected---
-            TcpClient client = listener.AcceptTcpClient();
 
-            //---get the incoming data through a network stream---
-            NetworkStream nwStream = client.GetStream();
-            byte[] buffer = new byte[client.ReceiveBufferSize];
-
-            //---read incoming stream---
-            int bytesRead = nwStream.Read(buffer, 0, client.ReceiveBufferSize);
-
-            //---convert the data received into a string---
-            string dataReceived = Encoding.ASCII.GetString(buffer, 0, bytesRead);
-            Console.WriteLine("Received : " + dataReceived);
-
-            //---write back the text to the client---
-            Console.WriteLine("Sending back : " + dataReceived);
-            nwStream.Write(buffer, 0, bytesRead);
-            client.Close();
-            listener.Stop();
-            Console.ReadLine();
-
-          //  System.Timers.Timer timer = new System.Timers.Timer();
-         //  
-         //    timer.Interval = 200;
-         //   timer.Elapsed += timer_Elapsed;
-         //   timer.Start();
+            //  System.Timers.Timer timer = new System.Timers.Timer();
+            //  
+            //    timer.Interval = 200;
+            //   timer.Elapsed += timer_Elapsed;
+            //   timer.Start();
         }
         void timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
             string date = e.SignalTime.ToString("yyyyMMdd");
             Logger.Log(" Timer:" + e.SignalTime);
 
-          
+
         }
+
+        protected void ListenerMethod()
+        {
+            TcpListener server = null;
+            try
+            {
+                Int32 port = 13000;
+                IPAddress localAddr = IPAddress.Parse("127.0.0.1");
+                server = new TcpListener(localAddr, port);
+                server.Start();
+                Byte[] bytes = new Byte[256];
+                String data = null;
+                while (true)
+                {
+                    Console.Write("Waiting for a connection... ");
+                    TcpClient client = server.AcceptTcpClient();
+                    Console.WriteLine("Connected!");
+
+                    data = null;
+                    NetworkStream stream = client.GetStream();
+
+                    int i;
+                    while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
+                    {
+                        data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
+                        Console.WriteLine("Received: {0}", data);
+                        data = data.ToUpper();
+                        byte[] msg = System.Text.Encoding.ASCII.GetBytes(data);
+                        stream.Write(msg, 0, msg.Length);
+                        Console.WriteLine("Sent: {0}", data);
+                    }
+                    client.Close();
+                }
+            }
+            catch (SocketException e)
+            {
+                Console.WriteLine("SocketException: {0}", e);
+            }
+            finally
+            {
+                // Stop listening for new clients.
+                server.Stop();
+            }
+
+            Console.WriteLine("\nHit enter to continue...");
+            Console.Read();
+        }
+
 
 
 
@@ -76,5 +102,6 @@ namespace vietlott
         protected override void OnStop()
         {
         }
+
     }
 }

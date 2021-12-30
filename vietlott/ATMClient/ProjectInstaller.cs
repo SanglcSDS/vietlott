@@ -7,7 +7,7 @@ using System.Linq;
 using System.ServiceProcess;
 using System.Threading.Tasks;
 
-namespace vietlott
+namespace ATMClient
 {
     [RunInstaller(true)]
     public partial class ProjectInstaller : System.Configuration.Install.Installer
@@ -17,19 +17,9 @@ namespace vietlott
             InitializeComponent();
         }
 
-        private void serviceProcessInstaller1_AfterInstall(object sender, InstallEventArgs e)
-        {
-
-        }
-
         private void serviceInstaller1_AfterInstall(object sender, InstallEventArgs e)
         {
             new ServiceController(serviceInstaller1.ServiceName).Start();
-        }
-
-        private void serviceInstaller2_AfterInstall(object sender, InstallEventArgs e)
-        {
-
         }
     }
 }
