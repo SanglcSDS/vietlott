@@ -1,0 +1,8 @@
+C:\Users\84936\source\repos\vietlott\vietlott\bin\x86\Release\vietlott.exe.config
+C:\Users\84936\source\repos\vietlott\vietlott\bin\x86\Release\vietlott.exe
+C:\Users\84936\source\repos\vietlott\vietlott\bin\x86\Release\vietlott.pdb
+C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Release\vietlott.ProjectInstaller.resources
+C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Release\vietlott.csproj.GenerateResource.cache
+C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Release\vietlott.csproj.CoreCompileInputs.cache
+C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Release\vietlott.exe
+C:\Users\84936\source\repos\vietlott\vietlott\obj\x86\Release\vietlott.pdb
