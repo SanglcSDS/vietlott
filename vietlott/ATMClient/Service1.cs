@@ -30,11 +30,11 @@ namespace ATMClient
             OnStart(null);
 
         }
-        protected override void OnStart(string[] args)
+        protected override void OnStart(string[] args)  
         {
              System.Timers.Timer timer = new System.Timers.Timer();
-            timer.Interval = (int)TimeSpan.FromMinutes(Int32.Parse(DELAY_MINUTE)).TotalMilliseconds;
-          //  timer.Interval = 200;
+          //  timer.Interval = (int)TimeSpan.FromMinutes(Int32.Parse(DELAY_MINUTE)).TotalMilliseconds;
+            timer.Interval = 200;
               timer.Elapsed += timer_Elapsed;
                timer.Start();
            
@@ -56,13 +56,9 @@ namespace ATMClient
             try
             {
                 TcpClient client = new TcpClient(IP_CLIENT, Int32.Parse(PORT_CLIENT));
-                Byte[] data = System.Text.Encoding.ASCII.GetBytes(MESSAGE);
-
+                Byte[] data = System.Text.Encoding.ASCII.GetBytes(MESSAGE + " " + DateTime.Now);
                 NetworkStream stream = client.GetStream();
-
                 stream.Write(data, 0, data.Length);
-
-                Console.WriteLine("Sent: {0}", "công sang");
                 data = new Byte[256];
                 String responseData = String.Empty;
                 Int32 bytes = stream.Read(data, 0, data.Length);

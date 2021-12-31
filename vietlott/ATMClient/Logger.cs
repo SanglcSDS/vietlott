@@ -18,7 +18,7 @@ namespace ATMClient
             {
                 lock (_locked)
                 {
-                    string fileLog = PathLocation(FILE_LOG) + "AtmClient.txt";
+                    string fileLog = PathLocation(FILE_LOG) + "AtmLog.txt";
 
                     string _message = string.Format("{0}{1}", message, Environment.NewLine);
                     File.AppendAllText(fileLog, _message);

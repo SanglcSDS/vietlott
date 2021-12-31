@@ -8,3 +8,13 @@ D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.csproj.GenerateResource
 D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.csproj.CoreCompileInputs.cache
 D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.exe
 D:\App\vietlott\vietlott\ATMClient\obj\Release\ATMClient.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\bin\Release\ATMClient.exe.config
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\bin\Release\ATMClient.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\bin\Release\ATMClient.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.ProjectInstaller.resources
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.Service1.resources
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.csproj.GenerateResource.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.csproj.CoreCompileInputs.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Release\ATMClient.csproj.AssemblyReference.cache

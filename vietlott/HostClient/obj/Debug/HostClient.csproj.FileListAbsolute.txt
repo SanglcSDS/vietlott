@@ -1,0 +1,8 @@
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\bin\Debug\HostClient.exe.config
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\bin\Debug\HostClient.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\bin\Debug\HostClient.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.ProjectInstaller.resources
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.csproj.GenerateResource.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.csproj.CoreCompileInputs.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.pdb

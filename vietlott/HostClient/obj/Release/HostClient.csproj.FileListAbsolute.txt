@@ -1,0 +1,9 @@
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\bin\Release\HostClient.exe.config
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\bin\Release\HostClient.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\bin\Release\HostClient.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Release\HostClient.csproj.CoreCompileInputs.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Release\HostClient.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Release\HostClient.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Release\HostClient.ProjectInstaller.resources
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Release\HostClient.csproj.GenerateResource.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Release\HostClient.csproj.AssemblyReference.cache

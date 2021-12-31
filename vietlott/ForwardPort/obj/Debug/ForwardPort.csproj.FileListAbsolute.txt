@@ -1,0 +1,9 @@
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\bin\Debug\ForwardPort.exe.config
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\bin\Debug\ForwardPort.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\bin\Debug\ForwardPort.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Debug\ForwardPort.ProjectInstaller.resources
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Debug\ForwardPort.csproj.GenerateResource.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Debug\ForwardPort.csproj.CoreCompileInputs.cache
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Debug\ForwardPort.exe
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Debug\ForwardPort.pdb
+C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Debug\ForwardPort.csproj.AssemblyReference.cache
