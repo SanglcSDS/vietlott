@@ -6,3 +6,12 @@ C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.c
 C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.csproj.CoreCompileInputs.cache
 C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.exe
 C:\Users\84936\source\repos\vietlotts\vietlott\HostClient\obj\Debug\HostClient.pdb
+D:\App\vietlott\vietlott\HostClient\bin\Debug\HostClient.exe.config
+D:\App\vietlott\vietlott\HostClient\bin\Debug\HostClient.exe
+D:\App\vietlott\vietlott\HostClient\bin\Debug\HostClient.pdb
+D:\App\vietlott\vietlott\HostClient\obj\Debug\HostClient.csproj.AssemblyReference.cache
+D:\App\vietlott\vietlott\HostClient\obj\Debug\HostClient.ProjectInstaller.resources
+D:\App\vietlott\vietlott\HostClient\obj\Debug\HostClient.csproj.GenerateResource.cache
+D:\App\vietlott\vietlott\HostClient\obj\Debug\HostClient.csproj.CoreCompileInputs.cache
+D:\App\vietlott\vietlott\HostClient\obj\Debug\HostClient.exe
+D:\App\vietlott\vietlott\HostClient\obj\Debug\HostClient.pdb

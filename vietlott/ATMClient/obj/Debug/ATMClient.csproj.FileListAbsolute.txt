@@ -15,3 +15,6 @@ C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Debug\ATMClient.csp
 C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Debug\ATMClient.exe
 C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Debug\ATMClient.pdb
 C:\Users\84936\source\repos\vietlotts\vietlott\ATMClient\obj\Debug\ATMClient.csproj.AssemblyReference.cache
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.ProjectInstaller.resources
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.Service1.resources
+D:\App\vietlott\vietlott\ATMClient\obj\Debug\ATMClient.csproj.GenerateResource.cache

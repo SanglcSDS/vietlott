@@ -5,6 +5,7 @@ using System.Configuration;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Net.Sockets;
 using System.ServiceProcess;
 using System.Text;
@@ -15,8 +16,9 @@ namespace ForwardPort
 {
     public partial class Service1 : ServiceBase
     {
-        private static string HOSR_CLIENT = ConfigurationManager.AppSettings["hostClient"];
-        private static string PORT_FORWARD = ConfigurationManager.AppSettings["portforward"];
+        private static string HOST_CLIENT = ConfigurationManager.AppSettings["hostClient"];
+        private static string PORT_FORWARD = ConfigurationManager.AppSettings["portForward"];
+        private static string PORT_CLIENT = ConfigurationManager.AppSettings["portClient"];
         Thread listenerThread;
         TcpListener selfListener;
         public Service1()
@@ -55,8 +57,8 @@ namespace ForwardPort
         protected void ListenerMethod()
         {
 
-
-            selfListener = new TcpListener(Int32.Parse(PORT_FORWARD));
+          
+            selfListener = new TcpListener(IPAddress.Any,Int32.Parse(PORT_FORWARD));
             selfListener.Start();
 
             Byte[] bytes1 = new Byte[256];
@@ -67,7 +69,7 @@ namespace ForwardPort
                 {
 
                     TcpClient atmClient = selfListener.AcceptTcpClient();
-                    TcpClient hostClient = new TcpClient(HOSR_CLIENT, 1234);
+                    TcpClient hostClient = new TcpClient(HOST_CLIENT, Int32.Parse(PORT_CLIENT));
 
                     Console.WriteLine("Connected");
 

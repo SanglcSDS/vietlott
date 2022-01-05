@@ -6,3 +6,11 @@ C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Release\ForwardPo
 C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Release\ForwardPort.csproj.CoreCompileInputs.cache
 C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Release\ForwardPort.exe
 C:\Users\84936\source\repos\vietlotts\vietlott\ForwardPort\obj\Release\ForwardPort.pdb
+D:\App\vietlott\vietlott\ForwardPort\bin\Release\ForwardPort.exe.config
+D:\App\vietlott\vietlott\ForwardPort\bin\Release\ForwardPort.exe
+D:\App\vietlott\vietlott\ForwardPort\bin\Release\ForwardPort.pdb
+D:\App\vietlott\vietlott\ForwardPort\obj\Release\ForwardPort.ProjectInstaller.resources
+D:\App\vietlott\vietlott\ForwardPort\obj\Release\ForwardPort.csproj.GenerateResource.cache
+D:\App\vietlott\vietlott\ForwardPort\obj\Release\ForwardPort.csproj.CoreCompileInputs.cache
+D:\App\vietlott\vietlott\ForwardPort\obj\Release\ForwardPort.exe
+D:\App\vietlott\vietlott\ForwardPort\obj\Release\ForwardPort.pdb
